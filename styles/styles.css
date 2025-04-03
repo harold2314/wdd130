@@ -1,3 +1,11 @@
+:root {
+    --heading-backgrouind-color: #e9debc;
+    --heading-text-color: #d2c8f0;
+    --heading-font: 'Tahoma', Helvetica, sans-serif;
+    
+}
+
+
 nav {
     background-color: rgb(139, 212, 206);
     padding: 10px;
