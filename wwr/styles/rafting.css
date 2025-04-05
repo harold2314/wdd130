@@ -1,0 +1,118 @@
+:root {
+    --primary-color: #003049;
+    --secondary-color: #d62828;
+    --accent-color: #f77f00;
+    --light-color: #fefae0;
+    --dark-color: #343a40;
+    --text-color: #212529;
+    --heading-font: 'Montserrat', sans-serif;
+    --body-font: 'Roboto', sans-serif;
+  }
+  
+
+  body {
+    font-family: var(--body-font);
+    color: var(--text-color);
+    background-color: var(--light-color);
+    margin: 0;
+    padding: 0;
+    max-width: 1200px;
+    margin-inline: auto;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+  }
+  
+  p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    padding: 1rem;
+  }
+  
+  header img {
+    height: 80px;
+  }
+  
+  nav a {
+    margin: 0 0.5rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+
+  .hero {
+    position: relative;
+  }
+  
+  .hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 90%;
+  }
+  
+  .hero article {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+    border-radius: 10px;
+    max-width: 600px;
+  }
+  
+  .hero article img {
+    float: right;
+    margin-left: 1rem;
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+
+  nav.sociallinks a img {
+    text-decoration: none;
+    width: 32px;
+    height: 32px;
+    margin: 0 0.5rem;
+  }
+  
+
+  footer {
+    background-color: var(--dark-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
+  footer nav {
+    margin-top: 0.5rem;
+  }
+  
+  footer nav a {
+    text-decoration: none;
+  }
